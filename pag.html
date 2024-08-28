@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="dis.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador Alura</title>
+</head>
+<body>
+    <header>
+        <img src="/imágenesA/Logo.png" alt="logo de alura">
+    </header>
+   
+    <main class="botones">
+
+        <section>
+    
+            <textarea class="text-area" id="texto" placeholder="Ingresa el texto aquí" pattern="[a-z]+"></textarea>
+        
+            <div>
+                <h6 class="informacion" img src="./imágenesA/bi_exclamation-circle-fill.png">Solo letras minúsculas y sin acentos</h6>
+            </div>
+
+            <div class="botones">
+                <button onclick="clickEncriptar();" class="btn-encriptar">Encriptar</button>
+                <button onclick="clickDesencriptar();" class="btn-desencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section>
+        
+            <textarea class="mensaje" id="resultado" cols="20" rows="10"></textarea>
+        <div>
+            <button class="copiar">Copiar</button>
+        </div>
+        </section>
+    </main>
+        <script src="log.js"></script>
+
+        <footer class="footer">
+            <div class="presentacion__enlaces">
+
+                <h2 class="presentacion__enlaces__subtitulo">Accede a mis redes:</h2>
+            
+
+
+                <a class="presentacion__enlaces__link" href="https://www.github.com/">
+                <img src="./imágenesA/github.png">Github</a>
+                
+            </div>
+        </footer>
+</body>
+</html>
